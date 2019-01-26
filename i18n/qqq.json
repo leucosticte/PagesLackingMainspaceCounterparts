@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leucosticte"
+		]
+	},
+	"pageslackingmainspacecounterparts": "The name of the extension's entry in Special:SpecialPages",
+	"pageslackingmainspacecounterparts-desc": "{{desc}}",
+	"pageslackingmainspacecounterparts-extensionname": "{{name}}",
+	"pageslackingmainspacecounterparts-text": "Description appearing on top of Special:PagesLackingMainspaceCounterparts."
+}

@@ -1,0 +1,35 @@
+{
+	"name": "PagesLackingMainspaceCounterparts",
+	"version": "1.1.1",
+	"author": [
+		"Nathan Larson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PagesLackingMainspaceCounterparts",
+	"descriptionmsg": "pageslackingmainspacecounterparts-desc",
+	"namemsg": "pageslackingmainspacecounterparts-extensionname",
+	"license-name": "MIT",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"SpecialPagesLackingMainspaceCounterparts": "specials/SpecialPagesLackingMainspaceCounterparts.php",
+		"PagesLackingMainspaceCounterpartsHooks": "PagesLackingMainspaceCounterpartsHooks.php"
+	},
+	"MessagesDirs": {
+		"PagesLackingMainspaceCounterparts": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PagesLackingMainspaceCounterpartsAlias": "PagesLackingMainspaceCounterparts.alias.php"
+	},
+	"SpecialPages": {
+		"PagesLackingMainspaceCounterparts": "SpecialPagesLackingMainspaceCounterparts"
+	},
+	"Hooks": {
+		"wgQueryPages": [
+			"PagesLackingMainspaceCounterpartsHooks::onwgQueryPages"
+		]
+	},
+	"config": {
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leucosticte"
+		]
+	},
+	"pageslackingmainspacecounterparts": "Pages lacking mainspace counterparts",
+	"pageslackingmainspacecounterparts-desc": "Provides [[Special:PagesLackingMainspaceCounterparts|a list]] of pages lacking mainspace counterparts",
+	"pageslackingmainspacecounterparts-extensionname": "Pages lacking mainspace counterparts",
+	"pageslackingmainspacecounterparts-text": "The following pages do not have a mainspace counterpart.",
+	"config": {
+		"PagesLackingMainspaceCounterpartsNamespaces": []
+	}
+}
